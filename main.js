@@ -11,3 +11,12 @@ const person = {
         alert('Hi! I\'m this ' + this.name[0] + '.')
     }    
 }
+
+person.age = 45;
+person['name']['last'] = 'Cratchit';
+
+person.farewell = function(){alert('Bye everyone')}
+
+let myDataName = 'height';
+let myDataValue = '1.75m';
+person[myDataName] = myDataValue;
