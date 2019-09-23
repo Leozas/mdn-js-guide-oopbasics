@@ -1,5 +1,6 @@
 const person = {
-    name: ['Bob' , 'Smith'],
+    name: { first: 'Bob',
+            last: 'Smith'},
     age: 32,
     gender: 'male',
     interests: ['music', 'skiing'],
